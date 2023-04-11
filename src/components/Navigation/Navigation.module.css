@@ -23,3 +23,11 @@
 .logoTitle {
   margin-left: 12px;
 }
+
+.navLink {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
