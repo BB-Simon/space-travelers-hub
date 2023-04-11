@@ -3,12 +3,12 @@
   height: 84px;
   padding: 0 24px;
   border-bottom: 1px solid var(--lightWhite);
+
   /* Layout */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 
 .logoWrapper {
   display: flex;

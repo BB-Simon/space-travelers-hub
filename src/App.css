@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-:root{
-  --white: #ffffff;
-  --lightWhite: #eeeeee;
-  --dark: #000000;
+:root {
+  --white: #fff;
+  --lightWhite: #eee;
+  --dark: #000;
 }
 
 body {
-  font-family: "Helvetica Neue",Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   background: var(--white);
   color: var(--dark);
 }
