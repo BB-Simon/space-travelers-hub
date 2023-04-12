@@ -55,7 +55,7 @@ export const rocketsSlice = createSlice({
         action.payload.map((element) => (
           newrockets.push({
             id: element.id,
-            name: element.name,
+            rocket_name: element.name,
             description: element.description,
             flickr_images: element.flickr_images[0],
             reserved: false,
