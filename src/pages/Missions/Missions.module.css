@@ -24,7 +24,7 @@
   color: #4f4d4d;
 }
 
-.notMemberTag {
+.notMemberBadge {
   display: inline-block;
   min-width: 114px;
   background: #7d7d7d;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
 }
 
-.memberTag {
+.memberBadge {
   display: inline-block;
   min-width: 114px;
   background: #0198e3;

@@ -38,11 +38,11 @@ const Missions = () => {
               <p className={css.description}>{mission.description}</p>
             </td>
             <td className={css.tableData}>
-              {/* {mission.reserved && mission.reserved ? (
-                <span className={css.memberTag}>Active Member</span>
-              ) : ( */}
-              <span className={css.notMemberTag}>Not a member</span>
-              {/* )} */}
+              {mission.reserved && mission.reserved ? (
+                <span className={css.memberBadge}>Active Member</span>
+              ) : (
+                <span className={css.notMemberBadge}>Not a member</span>
+              )}
             </td>
             <td className={css.tableData}>
               {mission.reserved && mission.reserved ? (
