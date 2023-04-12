@@ -24,7 +24,7 @@
   color: #4f4d4d;
 }
 
-.notMemberTag {
+.notMemberBadge {
   display: inline-block;
   min-width: 114px;
   background: #7d7d7d;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
 }
 
-.memberTag {
+.memberBadge {
   display: inline-block;
   min-width: 114px;
   background: #0198e3;
@@ -52,6 +52,17 @@
   padding: 8px 0;
   border: 1px solid #adadad;
   color: #000;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leaveBtn {
+  min-width: 114px;
+  margin: 24px;
+  padding: 8px 0;
+  border: 1px solid #ff2020;
+  color: #ff2020;
   background: transparent;
   border-radius: 4px;
   cursor: pointer;
