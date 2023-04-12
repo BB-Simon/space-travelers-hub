@@ -24,6 +24,15 @@
   margin-left: 12px;
 }
 
+.navItemsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-left: 24px;
+}
+
 .navLink {
   text-decoration: none;
 }

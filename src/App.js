@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import { Navigation } from './components';
-import { Home, MyProfile } from './pages';
+import { Home, Missions, MyProfile } from './pages';
 
 const Layout = () => (
   <main>
@@ -20,6 +20,7 @@ function App() {
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/my-profile" element={<MyProfile />} />
+        <Route path="/missions" element={<Missions />} />
       </Route>
     </Routes>
   );
