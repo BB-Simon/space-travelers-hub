@@ -6,6 +6,7 @@ import {
 import './App.css';
 import { Navigation } from './components';
 import { Home, MyProfile } from './pages';
+import Rockets from './components/rocket/Rockets';
 
 const Layout = () => (
   <main>
@@ -18,6 +19,7 @@ function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
+        <Route path="/" element={<Rockets />} />
         <Route path="/" element={<Home />} />
         <Route path="/my-profile" element={<MyProfile />} />
       </Route>
