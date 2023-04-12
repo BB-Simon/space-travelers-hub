@@ -1,0 +1,23 @@
+.myprofileContainer {
+  margin: 24px;
+
+  /* Layout */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 34px;
+}
+
+.listWrapper {
+  margin: 12px 0;
+  border: 1px solid var(--lightWhite);
+  border-radius: 5px;
+}
+
+.listItem {
+  padding: 14px;
+  border-bottom: 1px solid var(--lightWhite);
+}
+
+.listItem:last-child {
+  border: none;
+}

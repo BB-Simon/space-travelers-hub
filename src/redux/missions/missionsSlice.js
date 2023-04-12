@@ -62,6 +62,7 @@ export const missionSlice = createSlice({
       missions: [...action.payload],
     }));
     builder.addCase(fetchMissionsData.rejected, (state, action) => ({
+      ...state,
       missionsLoading: false,
       missionsError: action.payload,
     }));
