@@ -1,15 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import rocketsReducer, { reserveRocket } from './features/rockets/rocketsSlice';
+import missionsReducer from './missions/missionsSlice';
+import rocketReducer from './features/rockets/rocketsSlice';
 
 const store = configureStore({
   reducer: {
-    rockets: rocketsReducer,
+    missions: missionsReducer,
+    rockets: rocketReducer,
   },
 });
-
-// Dispatch reserveRocket action on click of "Reserve Rocket" button
-export const reserveHandler = (rocketId) => {
-  store.dispatch(reserveRocket(rocketId));
-};
 
 export default store;

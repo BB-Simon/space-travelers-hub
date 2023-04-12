@@ -11,13 +11,21 @@ const Navigation = () => {
         <img className={css.logo} src="planet.png" alt="Logo" />
         <h1 className={css.logoTitle}>Space Travelers Hub</h1>
       </Link>
-      <ul>
-        <li>
+      <ul className={css.navItemsWrapper}>
+        <li className={css.navItem}>
           <NavLink
             to="/my-profile"
             className={navLink}
           >
             My Profile
+          </NavLink>
+        </li>
+        <li className={css.navItem}>
+          <NavLink
+            to="/missions"
+            className={navLink}
+          >
+            Missions
           </NavLink>
         </li>
       </ul>
