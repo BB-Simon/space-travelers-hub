@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchMissionsData } from '../../redux/missions/missionsSlice';
+import { fetchMissionsData, joinMission } from '../../redux/missions/missionsSlice';
 import css from './Missions.module.css';
 
 const Missions = () => {
@@ -10,6 +10,10 @@ const Missions = () => {
   useEffect(() => {
     dispatch(fetchMissionsData());
   }, [dispatch]);
+
+  const handleClick = (id) => {
+    dispatch(joinMission(id));
+  };
 
   return (
     <div className={css.tableWrapper}>
@@ -30,10 +34,14 @@ const Missions = () => {
               <p className={css.description}>{mission.description}</p>
             </td>
             <td className={css.tableData}>
-              <span className={css.notMemberTag}>Not a member</span>
+              {mission.reserved && mission.reserved ? (
+                <span className={css.memberTag}>Active Member</span>
+              ) : (
+                <span className={css.notMemberTag}>Not a member</span>
+              )}
             </td>
             <td className={css.tableData}>
-              <button type="button" className={css.joinBtn}>Join Mission</button>
+              <button type="button" className={css.joinBtn} onClick={() => handleClick(mission.mission_id)}>Join Mission</button>
             </td>
           </tr>
         ))}

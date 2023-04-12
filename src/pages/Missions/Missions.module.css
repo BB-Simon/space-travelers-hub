@@ -35,6 +35,17 @@
   text-transform: uppercase;
 }
 
+.memberTag {
+  display: inline-block;
+  min-width: 114px;
+  background: #0198e3;
+  color: var(--lightWhite);
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
 .joinBtn {
   min-width: 114px;
   margin: 24px;
