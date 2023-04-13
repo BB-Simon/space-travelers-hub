@@ -54,18 +54,12 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **[Create react app by create-react-app]**
-- **[Add button component]**
-- **[Add calculator component]**
-- **[Add big.js]**
-- **[Add calculate function to make the calculation works correctly]**
-- **[Get quotes from API Ninjas Quotes API]**
-- **[Add Quote Component]**
-- **[Add React routes ]**
-- **[Add Home page]**
-- **[Add Calculator page]**
-- **[Add Quote page]**
-- **[Add Tests using Jest and react testing libary to all pages and component and methods]**
+- **Create react app by create-react-app**
+- **Add button component**
+- **Add Mission  component**
+- **Add my-profile component**
+- **Add Rockets components**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +81,7 @@ In order to run this project you need:
 
 > Clone this repository to your desired folder:
 
-git clone https://github.com/BB-Simon/math-magicians
+git clone https://github.com/BB-Simon/space-travelers-hub
 
 > In the project directory, you can run:
 
@@ -102,12 +96,18 @@ to build:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤  **BB-Simon**
 
 - GitHub: [@githubhandle](https://github.com/BB-Simon) 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bb-simon/) 
+
+
+👤  **Nicholas Amissah**
+
+- GitHub: [Github](https://github.com/ato624) 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicholas-amissah/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +133,7 @@ Feel free to check the [issues page](https://github.com/BB-Simon/todo-list-with-
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you are welcomed to star and fork it. You can also share your ideas for future features. 
+If you like this project, you are welcomed to star and fork it. You can also share your ideas for future features. If you like the project give us a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
