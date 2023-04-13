@@ -14,7 +14,7 @@ const Navigation = () => {
       <ul className={css.navItemsWrapper}>
         <li className={css.navItem}>
           <NavLink
-            to="/rockets"
+            to="/"
             className={navLink}
           >
             Rockets

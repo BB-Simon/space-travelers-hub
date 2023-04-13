@@ -5,12 +5,16 @@ import css from './Rocket.module.css';
 
 const Rockets = () => {
   const dispatch = useDispatch();
-  const { rockets } = useSelector((state) => state.rockets);
+  const { rockets, isLoading } = useSelector((state) => state.rockets);
 
   useEffect(() => {
     if (rockets.length) return;
     dispatch(fetchRockets());
   }, [dispatch, rockets.length]);
+
+  if (isLoading) {
+    return <p>Rockets data loading...!</p>;
+  }
 
   return (
     <>
