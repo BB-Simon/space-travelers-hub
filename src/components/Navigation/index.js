@@ -14,6 +14,14 @@ const Navigation = () => {
       <ul className={css.navItemsWrapper}>
         <li className={css.navItem}>
           <NavLink
+            to="/rockets"
+            className={navLink}
+          >
+            Rockets
+          </NavLink>
+        </li>
+        <li className={css.navItem}>
+          <NavLink
             to="/my-profile"
             className={navLink}
           >
