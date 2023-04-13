@@ -22,6 +22,7 @@
 
 .logoTitle {
   margin-left: 12px;
+  color: black;
 }
 
 .navItemsWrapper {
@@ -31,12 +32,18 @@
 
 .navItem {
   margin-left: 24px;
+  color: #318ce7;
 }
 
 .navLink {
   text-decoration: none;
+  color: #318ce7;
 }
 
 .active {
   text-decoration: underline;
+}
+
+.span {
+  margin-right: 15px;
 }

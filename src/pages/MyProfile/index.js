@@ -4,7 +4,9 @@ import css from './MyProfile.module.css';
 
 const MyProfile = () => {
   const { missions } = useSelector((state) => state.missions);
+  const { rockets } = useSelector((state) => state.rockets);
   const joinedMission = missions.filter((m) => m.reserved === true);
+  const joinedRocket = rockets.filter((r) => r.reserved === true);
 
   return (
     <div className={css.myprofileContainer}>
@@ -21,9 +23,16 @@ const MyProfile = () => {
         ) : null}
       </div>
       <div>
-        <ul>
-          <li>Rockets</li>
-        </ul>
+        <h2>My Rockets</h2>
+        {joinedRocket.length > 0 ? (
+          <ul className={css.listWrapper}>
+            {joinedRocket.map((rocket) => (
+              <li key={rocket.id} className={css.listItem}>
+                {rocket.rocket_name}
+              </li>
+            ))}
+          </ul>
+        ) : null}
       </div>
     </div>
   );

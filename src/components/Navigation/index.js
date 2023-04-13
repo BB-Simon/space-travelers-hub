@@ -22,18 +22,19 @@ const Navigation = () => {
         </li>
         <li className={css.navItem}>
           <NavLink
-            to="/my-profile"
-            className={navLink}
-          >
-            My Profile
-          </NavLink>
-        </li>
-        <li className={css.navItem}>
-          <NavLink
             to="/missions"
             className={navLink}
           >
             Missions
+          </NavLink>
+        </li>
+        <li className={css.navItem}>
+          <NavLink
+            to="/my-profile"
+            className={navLink}
+          >
+            <span className={css.span}>|</span>
+            My Profile
           </NavLink>
         </li>
       </ul>
