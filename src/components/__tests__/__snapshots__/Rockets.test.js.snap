@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite renders correctly 1`] = `
+  <p>Rockets data loading...!</p>
+`;

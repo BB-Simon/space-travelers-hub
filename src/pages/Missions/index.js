@@ -4,12 +4,14 @@ import { fetchMissionsData, joinMission, leaveMission } from '../../redux/missio
 import css from './Missions.module.css';
 
 const Missions = () => {
-  const { missions } = useSelector((state) => state.missions);
+  const { missions, missionsLoading } = useSelector((state) => state.missions);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchMissionsData());
-  }, [dispatch]);
+    if (missions.length === 0) {
+      dispatch(fetchMissionsData());
+    }
+  }, [dispatch, missions.length]);
 
   const handleJoinMission = (id) => {
     dispatch(joinMission(id));
@@ -18,6 +20,10 @@ const Missions = () => {
   const handleLeaveMission = (id) => {
     dispatch(leaveMission(id));
   };
+
+  if (missionsLoading) {
+    return <p>Missions data loading...!</p>;
+  }
 
   return (
     <div className={css.tableWrapper}>

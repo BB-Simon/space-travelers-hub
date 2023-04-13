@@ -4,9 +4,8 @@ import {
   Routes,
 } from 'react-router-dom';
 import './App.css';
-import { Navigation } from './components';
-import { Home, Missions, MyProfile } from './pages';
-import Rockets from './components/rocket/Rockets';
+import { Navigation, Rockets } from './components';
+import { Missions, MyProfile } from './pages';
 
 const Layout = () => (
   <main>
@@ -19,8 +18,7 @@ function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/Rockets" element={<Rockets />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Rockets />} />
         <Route path="/my-profile" element={<MyProfile />} />
         <Route path="/missions" element={<Missions />} />
       </Route>

@@ -6,7 +6,8 @@
 
 :root {
   --white: #fff;
-  --lightWhite: #eee;
+  --whiteLighter: #eee;
+  --lightWhite: #adadad;
   --dark: #000;
 }
 

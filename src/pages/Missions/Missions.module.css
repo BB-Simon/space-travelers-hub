@@ -11,12 +11,12 @@
 .tableData {
   text-align: left;
   padding: 8px;
-  border: 1px solid #adadad;
+  border: 1px solid var(--lightWhite);
   border-collapse: collapse;
 }
 
 .tableRow:nth-child(even) {
-  background-color: var(--lightWhite);
+  background-color: var(--whiteLighter);
 }
 
 .description {
@@ -28,7 +28,7 @@
   display: inline-block;
   min-width: 114px;
   background: #7d7d7d;
-  color: var(--lightWhite);
+  color: var(--whiteLighter);
   font-size: 12px;
   padding: 4px 6px;
   border-radius: 5px;
@@ -39,7 +39,7 @@
   display: inline-block;
   min-width: 114px;
   background: #0198e3;
-  color: var(--lightWhite);
+  color: var(--whiteLighter);
   font-size: 12px;
   padding: 4px 6px;
   border-radius: 5px;
