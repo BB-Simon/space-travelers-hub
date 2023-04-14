@@ -33,7 +33,7 @@
 
 # 📖 [Space Travelers Hub] <a name="about-project"></a>
 
-**Space Travelers Hub**
+**Space Travelers Hub** is web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,6 +63,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live](https://space-travelers-hub-6t7j.onrender.com/)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -81,18 +86,25 @@ In order to run this project you need:
 
 > Clone this repository to your desired folder:
 
+```sh
 git clone https://github.com/BB-Simon/space-travelers-hub
+```
 
 > In the project directory, you can run:
+### to install dependencies:
+```sh
+npm install
+```
+  
+### to run the project:
+```sh
+npm start
+```
 
-to install dependencies:
-#### `npm install`
-
-to run the project:
-#### `npm start`
-
-to build:
-#### `npm build`
+### to build:
+```sh
+npm run build
+```
 
 <!-- AUTHORS -->
 
