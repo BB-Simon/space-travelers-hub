@@ -31,6 +31,7 @@
   color: var(--whiteLighter);
   font-size: 12px;
   padding: 4px 6px;
+  text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
 }
@@ -38,7 +39,8 @@
 .memberBadge {
   display: inline-block;
   min-width: 114px;
-  background: #0198e3;
+  background: #0093af;
+  text-align: center;
   color: var(--whiteLighter);
   font-size: 12px;
   padding: 4px 6px;

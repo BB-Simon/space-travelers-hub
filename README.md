@@ -66,7 +66,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [live](https://space-travelers-hub-6t7j.onrender.com/)
+- [Live](https://space-travelers-hub-6t7j.onrender.com/)
 
 <!-- GETTING STARTED -->
 
@@ -86,18 +86,25 @@ In order to run this project you need:
 
 > Clone this repository to your desired folder:
 
+```sh
 git clone https://github.com/BB-Simon/space-travelers-hub
+```
 
 > In the project directory, you can run:
+### to install dependencies:
+```sh
+npm install
+```
+  
+### to run the project:
+```sh
+npm start
+```
 
-to install dependencies:
-#### `npm install`
-
-to run the project:
-#### `npm start`
-
-to build:
-#### `npm build`
+### to build:
+```sh
+npm run build
+```
 
 <!-- AUTHORS -->
 
