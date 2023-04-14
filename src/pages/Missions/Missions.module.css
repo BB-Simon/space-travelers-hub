@@ -1,0 +1,71 @@
+.tableWrapper {
+  margin: 24px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table,
+.tableHead,
+.tableData {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid var(--lightWhite);
+  border-collapse: collapse;
+}
+
+.tableRow:nth-child(even) {
+  background-color: var(--whiteLighter);
+}
+
+.description {
+  font-size: 14px;
+  color: #4f4d4d;
+}
+
+.notMemberBadge {
+  display: inline-block;
+  min-width: 114px;
+  background: #7d7d7d;
+  color: var(--whiteLighter);
+  font-size: 12px;
+  padding: 4px 6px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.memberBadge {
+  display: inline-block;
+  min-width: 114px;
+  background: #0093af;
+  text-align: center;
+  color: var(--whiteLighter);
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.joinBtn {
+  min-width: 114px;
+  margin: 24px;
+  padding: 8px 0;
+  border: 1px solid #adadad;
+  color: #000;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.leaveBtn {
+  min-width: 114px;
+  margin: 24px;
+  padding: 8px 0;
+  border: 1px solid #ff2020;
+  color: #ff2020;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}

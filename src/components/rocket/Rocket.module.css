@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.cardImg {
+  width: 350px;
+  height: 200px;
+  margin: 0 20px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.cardTitle {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.cardText {
+  padding: 20px 0;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.buttonName {
+  background-color: #1ca9c9;
+  color: white;
+  height: 20px;
+  width: 40px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.cancelBtn {
+  border: 1px solid black;
+  display: block;
+  background-color: white;
+  width: 150px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.reserveBtn {
+  display: block;
+  width: 120px;
+  height: 35px;
+  background-color: #318ce7;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
